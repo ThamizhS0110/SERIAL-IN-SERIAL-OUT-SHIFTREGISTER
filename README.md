@@ -25,7 +25,25 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 
-/* write all the steps invloved */
+Open Quartus Prime software.
+
+Create a new Verilog project and name it appropriately.
+
+Write the Verilog code for a 4-bit SISO shift register.
+
+Compile the design to check for syntax errors.
+
+Generate the RTL schematic to verify the logical connections of the design.
+
+Create a simulation file to verify the functionality of the SISO shift register.
+
+Apply test cases for various input patterns.
+
+Observe the output at each clock cycle to ensure correct data shifting.
+
+Compare the results against the functional table to validate correctness.
+
+Generate the timing diagram to illustrate the propagation of data through the flip-flops.
 
 **PROGRAM**
 
@@ -44,3 +62,8 @@ Developed by:Thamizh.S RegisterNumber:24900483
 ![Screenshot 2024-12-17 153937](https://github.com/user-attachments/assets/f66267e7-9dde-41a2-a1cc-81dfc8bb7726)
 
 **RESULTS**
+
+RTL Logic for SISO Shift Register: The schematic confirms the proper interconnection of flip-flops.
+Timing Diagram: Demonstrates the correct shifting of bits through the flip-flops on clock pulses.
+The SISO shift register is implemented successfully, and its functionality matches the expected behavior from the functional table.
+
